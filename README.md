@@ -1,13 +1,16 @@
-This is a mypkg repository.
+mypkg
 
-コードは授業で作成したROSプログラミングをそのまま使用。
+このプログラムは、count.pyで出された値をtwice.pyでランダムで１～５倍にするもので、Raspberry Pi 4 Model B上のubuntuにおいて動作できる。
+パブリッシャノード：count.py
+サブスクライバノード：twice.py
 
-使い方
+# 使い方
+	roscore &
+	rosrun mypkg twice.py
+	rostopic echo /twice
+数倍になった値が端末上に表示される。
 
-roscore &
+# デモ動画
 
-rosrun mypkg twice.py
-
-rostopic echo /twice
-
-二倍になった数字が端末上に表示される。
+# LICENCE
+BSD 2-Clause "Simplified" License
