@@ -1,16 +1,18 @@
-mypkg
+# mypkg
 
 このプログラムは、count.pyで出された値をtwice.pyでランダムで１～５倍にするもので、Raspberry Pi 4 Model B上のubuntuにおいて動作できる。
+
 パブリッシャノード：count.py
+
 サブスクライバノード：twice.py
 
-# 使い方
+## 使い方
 	roscore &
 	rosrun mypkg twice.py
 	rostopic echo /twice
 数倍になった値が端末上に表示される。
 
-# デモ動画
+## デモ動画
 
-# LICENCE
+## LICENCE
 BSD 2-Clause "Simplified" License
