@@ -7,7 +7,7 @@ n = 0
 def cb(message):
     global n
     n = random.randint(1,4)
-    rospy.loginfo(message.data*2)
+    rospy.loginfo(message.data*n)
 
 if __name__ == '__main__':
     rospy.init_node('random')
