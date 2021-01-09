@@ -14,6 +14,7 @@
 ## 使い方
 ### 端末１
 `chmod +x [ファイル名]`でそれぞれ実行できるようにしておく。
+
 ROSをインストールしておき、`roscore &`でROSを起動しておく。
 	
 	rosrun mypkg count.py
@@ -34,3 +35,5 @@ ROSをインストールしておき、`roscore &`でROSを起動しておく。
 [youtube]https://youtu.be/OvMjLec0xNs
 ## LICENCE
 BSD 2-Clause "Simplified" License
+## 参考元
+[github]https://github.com/ryuichiueda/mypkg.git
